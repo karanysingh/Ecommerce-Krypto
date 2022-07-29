@@ -1,0 +1,37 @@
+[33mcommit e5537ec96043a6883c82418714adcb9a88c10aee[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: gurukishore111 <gurukishore111@gmail.com>
+Date:   Mon Jul 25 10:32:12 2022 +0530
+
+    updated img
+
+[1mdiff --git a/README.md b/README.md[m
+[1mindex f34d4e0..9741969 100644[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@ -40,6 +40,26 @@[m [mThe user of this react application should be able to view all the products. The[m
+ - `npm run server` - To start the JSON server[m
+ - `npm start` - To start the react app[m
+ [m
+[32m+[m[32m## This project's user interface should like this.[m
+[32m+[m
+[32m+[m[32m### Login/Register page[m
+[32m+[m
+[32m+[m[32m<img width="1512" alt="Screenshot 2022-07-24 at 10 44 13 AM" src="https://user-images.githubusercontent.com/52570524/180701451-5ccce009-0384-426c-b1bc-d7536fd7b142.png">[m
+[32m+[m
+[32m+[m[32m### Home page[m
+[32m+[m
+[32m+[m[32m<img width="1512" alt="Screenshot 2022-07-24 at 10 45 58 AM" src="https://user-images.githubusercontent.com/52570524/180701523-b679c753-68ff-47f1-9a1b-f4cc04d88fea.png">[m
+[32m+[m
+[32m+[m[32m### Product detail page[m
+[32m+[m
+[32m+[m[32m<img width="675" alt="Screenshot 2022-07-24 at 10 53 17 AM" src="https://user-images.githubusercontent.com/52570524/180701655-7c3d3120-ff81-445a-81d9-b2152db8a776.png">[m
+[32m+[m
+[32m+[m[32m### Cart page[m
+[32m+[m
+[32m+[m[32m<img width="1415" alt="Screenshot 2022-07-24 at 10 50 18 AM" src="https://user-images.githubusercontent.com/52570524/180701661-a587033d-4616-40f8-9260-dfd3e8b97152.png">[m
+[32m+[m
+[32m+[m[32m<img width="1472" alt="Screenshot 2022-07-24 at 10 51 16 AM" src="https://user-images.githubusercontent.com/52570524/180701674-31c7e11c-56b3-4f24-83c4-e9d582c4b3f8.png">[m
+[32m+[m
+ ## API Usage[m
+ [m
+ API can be launched using npm run server.[m

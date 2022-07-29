@@ -1,0 +1,8 @@
+.body-content {
+    margin-top: 80px;
+    background-color: #f3f3f3;
+    min-height:100vh;
+    top: 0;
+    position:absolute;
+    width:100%;
+  }

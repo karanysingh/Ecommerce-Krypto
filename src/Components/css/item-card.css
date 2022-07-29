@@ -1,0 +1,49 @@
+.item-card{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    background-color:white;
+    margin: 10px 2px;
+    position: relative;
+}
+.image-card{
+    width:200px;
+    height: 50%;
+    object-fit: contain;
+    overflow: hidden;
+}
+.item-content-container{
+    padding:5px 10px;
+}
+.item-content-container>h1{
+    font-size:14px;
+}
+
+.item-content-container>p{
+    font-size:8px;
+    margin-top: -10px;
+}
+.rating{
+    font-size: 8px;
+    background-color:rgb(181, 0, 0);
+    width:fit-content;
+    padding:1px 3px;
+    color:white;
+    font-weight: 600;
+    border-radius:2px;
+}
+.item-bottom{
+    display: flex;
+    width: 90%;
+    /* background-color:red; */
+    justify-content: space-between;
+    position: absolute;
+    bottom:0;
+    padding: 5px 5%;
+}
+
+.item-icon {
+    position: relative;
+    font-size: 20px;
+    color:#757575;
+}

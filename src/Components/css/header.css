@@ -1,0 +1,32 @@
+.header {
+    background-color: #1C73E8;
+    position: fixed;
+    top:0;
+    width: 100%;
+    color:white;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    padding:10px 0px;
+    height: 60px;
+    z-index: 999;
+}
+.actions {
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    column-gap: 50px;
+    list-style-type: none;
+    cursor:pointer;
+}
+.action-items {
+    text-decoration: none;
+    color:white;
+}
+
+.action-items-main {
+    text-decoration: none;
+    color:white;
+    font-size:30px;
+    font-weight:600;
+}

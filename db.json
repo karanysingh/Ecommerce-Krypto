@@ -1,5 +1,13 @@
 {
-  "users": [],
+  "users": [
+    {
+      "email": "name@mail.com",
+      "password": "$2a$10$1.XpYjr1x4sk/QDIG0vvNOTKem4nL9dNkBJbjEhT6TNFow0.kWFNW",
+      "firstname": "firstname",
+      "lastname": "lastname",
+      "id": 1
+    }
+  ],
   "products": [
     {
       "id": 1,
