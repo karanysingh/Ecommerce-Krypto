@@ -1,8 +1,9 @@
-import React from "react"
+import React, { useEffect, useState } from "react"
 import ItemCard from "../Components/ItemCard";
 import "./css/product-page.css"
 import {Link, useParams} from "react-router-dom"
-const items=[
+import { fetchWrapper } from "../helper/fetchWrapper";
+const itemsInit=[
     {
         id:1,
         title:"T-shirt for formal men",
@@ -24,8 +25,19 @@ const items=[
 ]
 const Products = () => {
     
+const [items, setItems] = useState(itemsInit)
+const populateData = async () =>{
+    let data = await fetchWrapper.get("http://localhost:5000/products")
+    setItems(data)
+}
+useEffect(
+    ()=>{
+        populateData()
+        console.log(items)
+    },[]
+)
     return(<div className="products">
-        {
+        {items &&
             items.map((it,index)=>(
                 <ItemCard key={index} item={it}/>
             ))

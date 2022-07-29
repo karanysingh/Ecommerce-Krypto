@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 
 const ItemCard = (props) => {
     console.log(props.item)
-    const {id, title, price, rating} = props.item;
+    const {id, title,description,image,amount, rating} = props.item;
     let navigate = useNavigate();
 
     const handleClick = () => {
@@ -15,12 +15,19 @@ const ItemCard = (props) => {
             <div onClick={handleClick} className="item-card">
                 <div className="item-top">
                     <div className="image-card">
-                        <img src="https://picsum.photos/500/300?random=1"></img>
+                        <img src={image}></img>
                     </div>
                     <div className="item-content-container">
+                        <div>
                         <h1>{title}</h1>
-                        <p>${price}</p>
+                        <div className="item-description-container">
+                        <p>{description}</p>
+                        </div>
+                        </div>
+                        <div>
+                        <p>${amount}</p>
                         <div className="rating">{rating}</div>
+                        </div>
                     </div>
                 </div>
                 

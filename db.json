@@ -6,6 +6,111 @@
       "firstname": "firstname",
       "lastname": "lastname",
       "id": 1
+    },
+    {
+      "email": "new@mail.com",
+      "password": "$2a$10$7pbqDeqPD0Y8AZNTTkBxAe0eK9WQWQwDnjUoKzcgUnYLOaqzeAwIm",
+      "firstname": "firstname",
+      "lastname": "lastname",
+      "id": 2
+    },
+    {
+      "email": "temp124d@gmail.com",
+      "password": "$2a$10$IhUAHY5HCNjWjr606TTnCu1q8lNTojX41X2GRTVxGh378ecZRofUS",
+      "firstname": "Karan",
+      "lastname": "Singh",
+      "id": 3
+    },
+    {
+      "email": "karan124d@gmail.com",
+      "password": "$2a$10$6iXEIi0zbSx/G87Hk5wps.gWvva2fU8MCZ7cW1XaCzxDSETyZAHFW",
+      "firstname": "Karan",
+      "lastname": "Singh",
+      "id": 4
+    },
+    {
+      "email": "karanyuvraj.singh2019@vitstudent.ac.in",
+      "password": "$2a$10$Ix0GXVQrerNKaA9DrX0HZuzgF9njLmz6SaZMrP2FZr4GuVUFI4at.",
+      "firstname": "Karan",
+      "lastname": "Singh",
+      "id": 5
+    },
+    {
+      "email": "karan2124d@gmail.com",
+      "password": "$2a$10$/LVjj5tbZ1pzmNotqoM8s.aJoFHUWAlATywuGaUluUDglTmjF8JVK",
+      "firstname": "Karan",
+      "lastname": "Singh",
+      "id": 6
+    },
+    {
+      "email": "karan1s24d@gmail.com",
+      "password": "$2a$10$V3hBWifHmjJfdEBfvguTs.9zWYxRnLoX/1FGwdJJCtkL6DLUEp2pW",
+      "firstname": "Karan",
+      "lastname": "Singh",
+      "id": 7
+    },
+    {
+      "email": "karand124d@gmail.com",
+      "password": "$2a$10$b3isqRy6MXXjN5KLKh09SeJ1dhm66lZLqdQnSL1wIGIRwKnX0KtI2",
+      "firstname": "Karan",
+      "lastname": "Singh",
+      "id": 8
+    },
+    {
+      "email": "kara2n124d@gmail.com",
+      "password": "$2a$10$JmlLPQkF3UMcTmCxdAMRf.SHX2t15JDNMPMvrt3KZTOhrdusil6Le",
+      "firstname": "Karan",
+      "lastname": "Singh",
+      "id": 9
+    },
+    {
+      "email": "i@mail.com",
+      "password": "$2a$10$143/cXQexnk45zdRz4g3eucFX9G/qc40Kc01zIT4EMhRJXMBsreni",
+      "firstname": "Karan",
+      "lastname": "Singh",
+      "id": 10
+    },
+    {
+      "email": "as@mail.com",
+      "password": "$2a$10$cq34KtqTkFpNo.MMZKP4SuwvVL22khYhxdQGnr05mOWTGBxFyN76O",
+      "firstname": "firstname",
+      "lastname": "lastname",
+      "id": 11
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "$2a$10$oxj30RKf3pCD1fuBleB4EuOTD30eD77NY2Pu5RbMjNSGLxcm3ubu6",
+      "firstname": "asndk",
+      "lastname": "laksd",
+      "id": 12
+    },
+    {
+      "email": "tes2t@gmail.com",
+      "password": "$2a$10$rylY4QrAKpW8bhOJBtE5WOFg2DVLuoNgB/4AVjWLA3b2ERV3HFagi",
+      "firstname": "Testing",
+      "lastname": "alksmda",
+      "id": 13
+    },
+    {
+      "email": "tes12t@gmail.com",
+      "password": "$2a$10$CkWtxTviOEpq.nAnc9hKGOzaW/zXJsAKg88Yn9oZ/RX1ROOfCYonS",
+      "firstname": "Testing",
+      "lastname": "alksmda",
+      "id": 14
+    },
+    {
+      "email": "karan@trademarkia.com",
+      "password": "$2a$10$AZ.RMfoSlvKQaEMQTQQezeH1ZlMG1Q4W40m7r/HMH9Hw3oq6KmOaO",
+      "firstname": "kjansdjka",
+      "lastname": "kalsndalkad",
+      "id": 15
+    },
+    {
+      "email": "test2@gmail.com",
+      "password": "$2a$10$MijdemjH3ub21idVgKPYAudFEJY.ivHpF/J5qvnUpw5iZ5fNFwlDe",
+      "firstname": "Karan",
+      "lastname": "Singh",
+      "id": 16
     }
   ],
   "products": [
