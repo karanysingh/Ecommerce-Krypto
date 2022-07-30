@@ -65,7 +65,7 @@ if(response){
                     <input onChange={(e) => setLName(e.target.value)} placeholder="Last Name"></input>
                 </>)}
                 <input onChange={(e) => setEmail(e.target.value)} placeholder="Email Address"></input>
-                <input onChange={(e) => setPassword(e.target.value)} placeholder="Password"></input>
+                <input type="password" onChange={(e) => setPassword(e.target.value)} placeholder="Password"></input>
 
                 <div className="login-action">
                     <div  >

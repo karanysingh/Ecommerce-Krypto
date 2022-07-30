@@ -10,27 +10,19 @@ import { fetchWrapper } from "../helper/fetchWrapper";
 export const Header = () => {
     const init = [
         {name:"Products",link:"/"},
+        {name:"Cart",link:"/cart"},
         {name:"Login",link:"/login"},
     ]
     const [actions, setActions] = useState(init)
     const user = useAuthState()
     const dispatch = useAuthDispatch()
     console.log(user)
-    // const checkUser = async () =>{ 
-    //     try{
-    //     let res = await fetchWrapper.get("http://localhost:5000/login")
-    //     if(res==="Cannot find user"){
-    //         logout(dispatch)
-    //     }}
-    //     catch(err){       
-    //              logout(dispatch)
-    //     }
-    // }
     useEffect(()=>{
         if(user.token && user.token !== ""){
             // checkUser()
             setActions([
                 {name:"Products",link:"/"},
+                {name:"Cart",link:"/cart"},
                 {name:"Logout",link:"/logout"},
             ])
         }else{

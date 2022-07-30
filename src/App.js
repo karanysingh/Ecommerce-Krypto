@@ -5,6 +5,7 @@ import "./Components/css/app.css"
 import Login from "./pages/Login"
 import Products from "./pages/Products"
 import ProductDetail from "./pages/ProductDetails"
+import Cart from "./pages/Cart"
 import {
   BrowserRouter as Router,
   Routes,
@@ -33,6 +34,7 @@ function App() {
             <Route path="login" element={<Login />} />
             <Route path="products/:id" element={<ProductDetail />} />
             <Route path="logout" element={<Logout />} />
+            <Route path="cart" element={<Cart />} />
           </Route>
         </Routes>
         </AuthProvider>
